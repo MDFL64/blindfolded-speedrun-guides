@@ -1,10 +1,10 @@
 # Portal Blindfolded Route
 
-# Practice Runs
+## Practice Runs
 
 Twitch deleted my old videos. I may or may not resume trying to route this in the future.
 
-# Category
+## Category
 
 I intend to use glitches if they're viable, but out-of-bounds and save glitch are both probably not. Right now I'm shooting for the "No SLA" category.
 
@@ -17,7 +17,7 @@ Future potential glitches:
 - Prop climbing
 - Glados turret damage
 
-# Existing Runs and Strategies
+## Existing Runs and Strategies
 
 [Katun24](https://www.youtube.com/watch?v=PMIFB9pmZYs&t=236s) completed the first (and only?) blindfolded Portal run in 4:34:35.
 
@@ -29,7 +29,7 @@ Youtuber UncraftedName has a [playlist](https://www.youtube.com/playlist?list=PL
 
 Imanex completed a "no mouse movement" run which can be found [here](https://www.youtube.com/watch?v=UvtA_-BLUzE). A lot of these routes end up being more complex than just aiming a shot, but there are some things worth stealing, and a more competent runner willing to memorize more might find some success with these strats.
 
-# autoexec.cfg
+## autoexec.cfg
 
 Hopefully everything here is okay. Katun24 requested `cl_mouselook` to be allowed, and while it was never explicitly approved, I'm going to assume it's fair game since it enables a similar config he used in his run. I assume `cl_pitchspeed` and `cl_yawspeed` fall under "sensitivity binds".
 
@@ -51,7 +51,7 @@ bind 4 "cl_pitchspeed 90; cl_yawspeed 90;"
 bind q "cl_pitchspeed 100000;"
 ```
 
-# Chambers
+## Chambers
 
 I don't use much fancy notation. This might be a bit long and verbose, but I'd rather make this easy for myself and anyone else to read or edit
 
@@ -60,7 +60,7 @@ I don't use much fancy notation. This might be a bit long and verbose, but I'd r
 - QCE for "quick crouch entry", a method of quickly entering downward facing portals. Most of the time I don't bother but it can be useful for normalization and some specific spots.
 - @ [number] is used to specify the sensitivity bind.
 
-## 00 (Wakeup)
+### 00 (Wakeup)
 
 - WA through portal
 - AS 10 steps to corner
@@ -70,7 +70,7 @@ I don't use much fancy notation. This might be a bit long and verbose, but I'd r
 - Place cube
 - D, DS for adjustments to elevator
 
-## 01 (Cycle 0)
+### 01 (Cycle 0)
 
 - A, WA out of elevator
 - S 4 steps, then careful S until glass steps
@@ -81,7 +81,7 @@ I don't use much fancy notation. This might be a bit long and verbose, but I'd r
 - S out of portal, wait for transition, then W in portal -- speech can make this confusing and easy to miss the sound
 - W to elevator
 
-## 02 (Cycle 1)
+### 02 (Cycle 1)
 
 - Hold S while: Left from "Please ... intend" @ 1
 - W until doors open
@@ -91,7 +91,7 @@ I don't use much fancy notation. This might be a bit long and verbose, but I'd r
 - 2 tap W
 - D until elevator
 
-## 03 (Two Quick Ones)
+### 03 (Two Quick Ones)
 
 - A, AS out of elevator
 - Portal Down
@@ -99,7 +99,7 @@ I don't use much fancy notation. This might be a bit long and verbose, but I'd r
 - Right 7 portals @ 2
 - D into portal, then AS, A to elevator.
 
-## 04 (Pit)
+### 04 (Pit)
 
 **OUTDATED**
 
@@ -115,7 +115,7 @@ I don't use much fancy notation. This might be a bit long and verbose, but I'd r
 - Right 7 portals @ 2 — portal should hit
 - D into portal, S, AS, A into elevator.
 
-## 05 (Pit + 1)
+### 05 (Pit + 1)
 
 **OUTDATED**
 
@@ -139,7 +139,7 @@ I don't use much fancy notation. This might be a bit long and verbose, but I'd r
 - Portal Down
 - S to elevator
 
-## 06 (Pellet)
+### 06 (Pellet)
 
 F*all to exit platform is viable, but is inconsistent, dangerous, and saves only ~10 seconds.*
 
@@ -149,7 +149,7 @@ F*all to exit platform is viable, but is inconsistent, dangerous, and saves only
 - WA at "Must" until on platform
 - W into elevator. **SETUP REQUIRED FOR NEXT CHAMBER!1z**
 
-## 07 (Pellet + Platform)
+### 07 (Pellet + Platform)
 
 **OUTDATED - Reverted to old strat.**
 
@@ -167,7 +167,7 @@ F*all to exit platform is viable, but is inconsistent, dangerous, and saves only
 - A + jump off scaffold. Retry as needed.
 - AS to elevator.
 
-## 08 (Pellet + Platform + Gunk)
+### 08 (Pellet + Platform + Gunk)
 
 *Might be possible to use fast strat of jumping on the block and strafing, but takes longer to setup and is more difficult to do blind.*
 
@@ -181,7 +181,7 @@ F*all to exit platform is viable, but is inconsistent, dangerous, and saves only
 - Save and wait for platform. If your position is bad you might get pushed off by the catcher.
 - W/WD into elevator.
 
-## 09 (Impossible)
+### 09 (Impossible)
 
 **OUTDATED**
 
@@ -197,7 +197,7 @@ F*all to exit platform is viable, but is inconsistent, dangerous, and saves only
 - D / WD to elevator. The elevator makes a loud noise when you reach the bend in the hall.
 - W into elevator.
 
-## 10 (Fling Intro)
+### 10 (Fling Intro)
 
 - S out of elevator.
 - Jump into portal down.
@@ -208,7 +208,7 @@ F*all to exit platform is viable, but is inconsistent, dangerous, and saves only
 - W through portal, hold look down. Don't need to hold crouch BUT holding W/S after going through portal can screw this up. Retry as needed.
 - W into elevator. **SETUP REQUIRED FOR NEXT CHAMBER!**
 
-## 11 (Cycle 2)
+### 11 (Cycle 2)
 
 - Before start of chamber:
     - Position aim down, then up 4 @ 2
@@ -224,7 +224,7 @@ F*all to exit platform is viable, but is inconsistent, dangerous, and saves only
 - Y down to setup for next chamber.
 - WD into elevator.
 
-## 12 (Fling Climb)
+### 12 (Fling Climb)
 
 - 15 steps A
 - Up Y from bottom @ 2 to highest portal-able. Can also go down ~3 portals @ 2.
@@ -241,7 +241,7 @@ F*all to exit platform is viable, but is inconsistent, dangerous, and saves only
 - D, W into pit, look down, B on ground.
 - D to elevator
 
-## 13 (Long Time)
+### 13 (Long Time)
 
 - A to wall, then SD to corner.
 - S to wall. Should pass over button.
@@ -266,7 +266,7 @@ F*all to exit platform is viable, but is inconsistent, dangerous, and saves only
 - Sanity check: shooting a portal here should knock camera off the wall.
 - D into elevator.
 
-## 14 (Easy Skip)
+### 14 (Easy Skip)
 
 - A out of elevator to wall.
 - S slowly back, place Y down at edge of portal-able.
@@ -275,7 +275,7 @@ F*all to exit platform is viable, but is inconsistent, dangerous, and saves only
 - After passing through second portal, S back to platform.
 - D/DS into elevator.
 
-## 15 (Bunch of short chambers glued together)
+### 15 (Bunch of short chambers glued together)
 
 **FLING 1**
 

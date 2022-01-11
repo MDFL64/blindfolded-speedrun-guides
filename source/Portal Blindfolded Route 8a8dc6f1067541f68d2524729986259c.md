@@ -1,12 +1,8 @@
 # Portal Blindfolded Route
 
-[Alternate Routes](https://www.notion.so/Alternate-Routes-c306a407a6e746888815e3bf9221fc47)
-
 # Practice Runs
 
-Twitch embeds don't seem to work for whatever reason.
-
-[Here's a link to my videos.](https://www.twitch.tv/bigboysauceboss/videos)
+Twitch deleted my old videos. I may or may not resume trying to route this in the future.
 
 # Category
 
